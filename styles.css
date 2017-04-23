@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.game {
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+}
+.life {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border: 1px solid black;
+}
+.death {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.button {
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+}
